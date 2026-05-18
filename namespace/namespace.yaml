@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: three-tier
+  labels:
+    app: three-tier-app
+    env: production
+    managed-by: prashant
+
